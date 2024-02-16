@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>api.restassured.bdd</groupId>
+  <artifactId>PS4-API-RESTAssured-BDD</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+      <dependencies>
+	  
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.15.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.15.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>7.15.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.17.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-api</artifactId>
+    <version>4.17.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java8</artifactId>
+    <version>7.15.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20240205</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>5.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.picocontainer/picocontainer -->
+<dependency>
+    <groupId>org.picocontainer</groupId>
+    <artifactId>picocontainer</artifactId>
+    <version>2.15</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-picocontainer</artifactId>
+    <version>7.15.0</version>
+</dependency>
+
+        <!-- cucumber-extentsreport -->
+		<dependency>
+			<groupId>com.vimalselvam</groupId>
+			<artifactId>cucumber-extentsreport</artifactId>
+			<version>3.0.2</version>
+		</dependency>
+
+		<!-- extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.1</version>
+		</dependency>
+
+		<!-- extentreports-cucumber7-adapter -->
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber7-adapter</artifactId>
+			<version>1.14.0</version>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>dependency.injection</groupId>
+			<artifactId>
+				PS1-PS2-DependencyInjection-ParallelExecution
+			</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+      </dependencies>
+  
+</project>
